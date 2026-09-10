@@ -1,0 +1,26 @@
+{
+  "name": "datastraw-support-crm",
+  "version": "1.0.0",
+  "description": "Full-Stack Customer Support Ticketing CRM System (Datastraw Assessment)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "start": "cd server && npm start",
+    "seed": "cd server && npm run seed",
+    "build:client": "cd client && npm run build",
+    "build": "cd client && npm run build",
+    "postinstall": "cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": [
+    "crm",
+    "customer-support",
+    "react",
+    "express",
+    "sqlite",
+    "tailwind"
+  ],
+  "author": "Datastraw Assessment Candidate",
+  "license": "MIT"
+}
