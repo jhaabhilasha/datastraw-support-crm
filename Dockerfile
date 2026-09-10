@@ -1,5 +1,5 @@
-# Production Multi-Stage Dockerfile
-FROM node:20-alpine AS builder
+# Production Multi-Stage Dockerfile using Debian slim for SQLite compatibility
+FROM node:20-slim AS builder
 
 WORKDIR /app
 
@@ -13,11 +13,10 @@ COPY client/ ./client/
 RUN cd client && npm run build
 
 # Production runtime stage
-FROM node:20-alpine AS runner
+FROM node:20-slim AS runner
 
 WORKDIR /app
 ENV NODE_ENV=production
-ENV PORT=5000
 
 # Copy server files
 COPY server/package*.json ./server/
@@ -28,7 +27,7 @@ COPY server/ ./server/
 # Copy built frontend assets from builder stage
 COPY --from=builder /app/client/dist ./client/dist
 
-# Expose port
+# Expose default port
 EXPOSE 5000
 
 # Seed database and start server

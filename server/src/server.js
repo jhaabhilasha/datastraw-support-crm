@@ -55,11 +55,11 @@ app.use((err, req, res, next) => {
   res.status(500).json({ error: 'Internal server error occurred.' });
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`=========================================`);
   console.log(`Support CRM Server running on port ${PORT}`);
-  console.log(`Health check: http://localhost:${PORT}/api/health`);
-  console.log(`API Base URL: http://localhost:${PORT}/api/tickets`);
+  console.log(`Health check: http://0.0.0.0:${PORT}/api/health`);
+  console.log(`API Base URL: http://0.0.0.0:${PORT}/api/tickets`);
   console.log(`=========================================`);
 });
 
