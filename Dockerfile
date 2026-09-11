@@ -27,8 +27,9 @@ COPY server/ ./server/
 # Copy built frontend assets from builder stage
 COPY --from=builder /app/client/dist ./client/dist
 
-# Expose default port
-EXPOSE 5000
+# Expose Render and local default ports
+ENV PORT=10000
+EXPOSE 10000 5000
 
 # Seed database and start server
 CMD ["sh", "-c", "node server/src/seeds/seedData.js && node server/src/server.js"]
