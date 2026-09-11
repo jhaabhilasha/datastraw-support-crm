@@ -19,8 +19,8 @@ Hi Ozair, Aryan, and the Datastraw Talent Team,
 
 I have completed the hiring assessment for the Customer Support Ticketing CRM System. Below are the links to my live deployed application, GitHub repository, and demo video walkthrough:
 
-• Deployed Application: [PASTE YOUR DEPLOYED URL HERE, e.g., https://datastraw-support-crm.onrender.com]
-• GitHub Repository: [PASTE YOUR GITHUB REPO URL HERE, e.g., https://github.com/your-username/datastraw-support-crm]
+• Deployed Application: https://datastraw-support-crm-r6za.onrender.com
+• GitHub Repository: https://github.com/jhaabhilasha/datastraw-support-crm
 • Demo Video Walkthrough (3-5 mins): [PASTE YOUR YOUTUBE/LOOM LINK HERE]
 • LinkedIn Profile: [PASTE YOUR LINKEDIN PROFILE URL HERE]
 

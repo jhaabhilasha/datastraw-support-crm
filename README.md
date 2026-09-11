@@ -13,9 +13,9 @@ A production-ready, full-stack Customer Support Ticketing CRM built for the **Da
 
 ## 🌟 Live Demo & Preview
 
-- **Web Application URL**: *(Replace with your deployed URL, e.g. on Render / Railway)*
-- **Demo Video Walkthrough**: *(Replace with YouTube / Loom link)*
-- **GitHub Repository**: *(Replace with your GitHub repository link)*
+- **Web Application URL**: [https://datastraw-support-crm-r6za.onrender.com](https://datastraw-support-crm-r6za.onrender.com)
+- **Demo Video Walkthrough**: *(Replace with your 3-5 min YouTube / Loom video link)*
+- **GitHub Repository**: [https://github.com/jhaabhilasha/datastraw-support-crm](https://github.com/jhaabhilasha/datastraw-support-crm)
 
 ---
 
@@ -269,8 +269,8 @@ All endpoints return JSON and use standard HTTP status codes.
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/support-crm-system.git
-   cd support-crm-system
+   git clone https://github.com/jhaabhilasha/datastraw-support-crm.git
+   cd datastraw-support-crm
    ```
 
 2. **Install all dependencies**:
